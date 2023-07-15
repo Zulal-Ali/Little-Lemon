@@ -1,0 +1,97 @@
+.recapChild {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 428px;
+  height: 311px;
+}
+.yourReservation {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-weight: 800;
+}
+.date {
+  margin: 0;
+}
+.dateTimeNumberContainer,
+.mar20231800Container {
+  position: absolute;
+  top: 54px;
+  left: 55px;
+  display: inline-block;
+  width: 172px;
+  height: 244px;
+}
+.mar20231800Container {
+  top: 49px;
+  left: 260px;
+  text-align: center;
+  width: 127px;
+  height: 240px;
+}
+.confirmChild,
+.recap {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  width: 428px;
+  height: 318px;
+}
+.confirmChild {
+  top: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  width: 388px;
+  height: 50px;
+}
+.confirm,
+.confirmReservation {
+  position: absolute;
+  top: 11px;
+  left: 74px;
+}
+.confirm {
+  top: 856px;
+  left: 20px;
+  width: 388px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.icLeftIcon,
+.logoIcon,
+.navbar {
+  position: absolute;
+  width: 147.5px;
+  height: 40px;
+}
+.logoIcon {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.icLeftIcon,
+.navbar {
+  top: 26px;
+  left: 261px;
+}
+.icLeftIcon {
+  top: 36px;
+  left: 31px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.customerDetails {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--nav-link);
+}

@@ -1,0 +1,125 @@
+.greekSalad {
+  position: relative;
+  display: inline-block;
+  color: var(--color-black);
+  width: 296px;
+}
+.div,
+.theFamousGreek {
+  position: relative;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 34;
+  -webkit-box-orient: vertical;
+  width: 297px;
+}
+.theFamousGreek {
+  font-size: var(--nav-link-size);
+}
+.div {
+  font-weight: 500;
+}
+.greekSaladParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.cardMealCardChild {
+  position: relative;
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+}
+.cardMealCard,
+.homecardChild {
+  position: absolute;
+  width: 99.75%;
+}
+.cardMealCard {
+  height: 100%;
+  top: 0;
+  right: 0.25%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.homecardChild {
+  height: 0.81%;
+  top: 97.15%;
+  right: -0.13%;
+  bottom: 2.03%;
+  left: 0.38%;
+  border-top: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+}
+.homecard {
+  position: relative;
+  width: 396px;
+  height: 123px;
+}
+.homecards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cards,
+.cardsWrapper {
+  position: absolute;
+  overflow-y: auto;
+}
+.cards {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardsWrapper {
+  top: 578px;
+  left: 16px;
+  width: 396px;
+  height: 675px;
+}
+.homeChild {
+  position: absolute;
+  top: 433px;
+  left: -2px;
+  background-color: var(--color-white);
+  width: 430px;
+  height: 130px;
+  display: none;
+}
+.navbarIcon {
+  position: absolute;
+  height: 4.86%;
+  width: 91.59%;
+  top: 2.7%;
+  right: 4.21%;
+  bottom: 92.44%;
+  left: 4.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--nav-link);
+}

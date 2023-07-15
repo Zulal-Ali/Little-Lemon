@@ -1,0 +1,85 @@
+.personalInfoChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 428px;
+  height: 398.18px;
+}
+.detail {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-weight: 800;
+  color: var(--color-black);
+  display: inline-block;
+  width: 202px;
+  height: 30px;
+}
+.firstName,
+.lastName,
+.phoneNumber {
+  position: absolute;
+  top: 71.47px;
+  left: 35px;
+  display: inline-block;
+  width: 126px;
+  height: 24.5px;
+}
+.lastName,
+.phoneNumber {
+  top: 189.9px;
+  width: 123px;
+}
+.phoneNumber {
+  top: 313.44px;
+  left: 37px;
+  width: 167px;
+}
+.personalInfoItem {
+  position: absolute;
+  top: 105.16px;
+  left: 40px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 340px;
+  height: 46.97px;
+}
+.fieldIsMandatory {
+  position: absolute;
+  top: 407px;
+  left: 35px;
+  font-size: var(--nav-link-size);
+  display: inline-block;
+  width: 220px;
+  height: 19.4px;
+}
+.personalInfoInner,
+.rectangleDiv {
+  position: absolute;
+  top: 346.11px;
+  left: 42px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 340px;
+  height: 46.97px;
+}
+.rectangleDiv {
+  top: 223.59px;
+  left: 40px;
+}
+.personalInfo {
+  position: absolute;
+  top: 406px;
+  left: 0;
+  width: 428px;
+  height: 426.4px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--nav-link);
+}

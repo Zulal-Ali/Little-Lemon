@@ -1,0 +1,51 @@
+.label,
+.orderForDelivery {
+  position: relative;
+  font-weight: 800;
+}
+.orderForDelivery {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 296px;
+}
+.label {
+  text-transform: capitalize;
+}
+.homeorder,
+.pill,
+.pills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pill {
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-3xs);
+}
+.homeorder,
+.pills {
+  width: 412px;
+  overflow-x: auto;
+  gap: var(--gap-xs);
+  font-size: var(--nav-link-size);
+  color: var(--color-darkslategray-100);
+}
+.homeorder {
+  position: absolute;
+  top: 427px;
+  left: 16px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  width: 396px;
+  flex-direction: column;
+  padding: var(--padding-21xl) 0 var(--padding-13xl);
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--nav-link);
+}

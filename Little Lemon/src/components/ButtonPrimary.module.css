@@ -1,0 +1,17 @@
+.buttonprimary,
+.label {
+  position: relative;
+}
+.buttonprimary {
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--nav-link-size);
+  color: var(--color-black);
+  font-family: var(--nav-link);
+}

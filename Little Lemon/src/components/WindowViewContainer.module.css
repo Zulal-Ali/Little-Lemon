@@ -1,0 +1,22 @@
+.list,
+.row {
+  align-self: stretch;
+  display: flex;
+}
+.row {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.list {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,31 @@
+.littleLemon {
+  position: relative;
+  font-weight: 500;
+}
+.chicago {
+  position: relative;
+  font-size: var(--subheading-size);
+  color: var(--color-whitesmoke);
+  margin-top: -21px;
+}
+.homehero,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homehero {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  width: 428px;
+  padding: 0 var(--padding-base) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--display-serif-size);
+  color: var(--color-gold);
+  font-family: var(--subheading);
+}
